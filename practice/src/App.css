@@ -1,7 +1,16 @@
 .Text{
-    color: rgb(255, 255, 255);
+    color: rgb(226, 226, 226);
 }
 
 .setTextColor{
     color: rgb(122, 252, 113);
+}
+.cont{
+    color: cyan;
+}
+.cont2{
+    color: red;
+}
+body{
+    background-color: rgb(255, 255, 255);
 }
