@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-
+import'./App.css'
 const App = () => {
 
   const click=()=>{
@@ -7,7 +7,7 @@ const App = () => {
   }
 
   const[Text,setText]=useState("not changed yet!")
-  
+
   return (
     <div>
       <h1>{Text}</h1>
