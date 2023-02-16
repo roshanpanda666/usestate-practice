@@ -17,8 +17,7 @@ const App = () => {
   return (
     <div>
       <h1 className={changeColor}>{Text}</h1>
-      <button onClick={click}>click me</button>
-      <button onClick={colorc}>change color</button>
+      <button onClick={click}onClickCapture={colorc}>click me</button>
 
     </div>
   )
